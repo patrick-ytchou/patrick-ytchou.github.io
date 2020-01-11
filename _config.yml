@@ -131,9 +131,9 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/yungtang-chou/"
+#    - label: "LinkedIn"
+#      icon: "fab fa-fw fa-linkedin"
+#      url: "https://www.linkedin.com/in/yungtang-chou/"
 
 # Site Footer
 footer:
@@ -304,4 +304,3 @@ defaults:
     values:
       layout: single
       author_profile: true
-      
