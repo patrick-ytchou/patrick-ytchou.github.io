@@ -1,71 +1,86 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+#-------------------------------
+# General Site Settings
+title: Yung-Tang C. 
+logo: # You can add own logo. For example '/images/logo.png'.
+description: 
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-# Site language
-lang: en-US
 
-# Site title
-title: "Scriptor"
+#-------------------------------
+# Author Settings
+author:
+  name: Yung-Tang (Patrick) Chou
+  bio: Hi, this is my personal blog for my data science blogging. As I learn new things in the field of data science, I'll constantly update this blog to take some notes for later reflection.
+  image: '/images/01.jpg'
+  avatar: '/images/15.jpg'
 
-# A description of your site for meta tag, search engine results.
-description: "Scriptor is a minimal, clean, modern & responsive Jekyll theme for writers"
+# Example of adding a new link to the section author - {name: "Github", link: "https://github.com"}
+author-social:
+- {name: "Facebook", link: "https://www.facebook.com/patrick.chou.5"}
+- {name: "Linkedin", link: "https://www.linkedin.com/in/yungtang-chou/"}
+- {name: "Github", link: "https://github.com/patrick-ytchou/Data-Science"}
 
-# The subpath of your site, e.g. /blog, for generating urls.
-baseurl: ""
+#-------------------------------
+# Footer section
+# Example of adding a new link to the footer - {icon: "ion-logo-github", link: "https://github.com"}
+# Other icons can be found at https://ionicons.com
+contact:
+- {icon: "ion-logo-facebook", link: "https://www.facebook.com/patrick.chou.5"}
+- {icon: "ion-logo-linkedin", link: "https://www.linkedin.com/in/yungtang-chou/"}
+- {icon: "ion-logo-github", link: "https://github.com/patrick-ytchou/Data-Science"}
 
-# The base hostname & protocol of your site for where absolute urls are needed.
-url: "https://scriptor-jekyll.netlify.com"
 
-# Favicon
-favicon: images/favicon.png
+#-------------------------------
+# Comment Section (Disqus)
+disqus-identifier: mr.C. # add your shortname for Disqus Comment. For example mr-brown
 
-# Google Analytics id, e.g. "UA-NNNNNNNN-N"
-google_analytics: ""
 
-# Site navigation - each item must have a title and a url.
-navigation:
-  - text: Home
-    url: /
-  - text: About
-    url: /about/
-  - text: Style Guide
-    url: /style-guide/
-  - text: Tags
-    url: /tags/
-  - text: Download
-    url: https://github.com/JustGoodThemes/Scriptor-Jekyll-Theme
+#-------------------------------
+# Instagram Feed
+instafeed: false # To enable the instafeed, use the value true. To turn off use the value false.
+userID: 6716400487
+accessToken: 6716400487.1677ed0.4fae51c47bc544a895b81756a7d0c477
 
-# The shortname for your Disqus site to enable comments.
-disqus: justgoodthemes
 
-# Colors
-accent_color: '#2d72d9'
+#-------------------------------
+# Google Analytics
+google-analytics: "UA-162704821-1" # Add your identifier. For example UA-99631805-1.
 
-# Site footer
-footer:
-  content: "&copy; Scriptor all rights reserved. Theme by [JustGoodThemes](https://www.justgoodthemes.com)."
-  has_social: true
 
-# Plugins
+#-------------------------------
+# Newsletter
+mailchimp: false # To enable the mailchimp form, use the value true. To turn off use the value false.
+mailchimp-identifier: # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
+
+
+#-------------------------------
+# Build settings
+markdown: kramdown
+permalink: pretty
 plugins:
   - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll/tagging
 
-# http://jekyllrb.com/docs/pagination/
-paginate: 3
-paginate_path: '/page:num/'
+paginate: 10
+paginate_path: "/page/:num"
 
+# Pages Path
+defaults:
+  - scope:
+      path: '_pages'
+    values:
+      permalink: /:basename:output_ext
 
-# Permalinks
-permalink: /:title
+include:
+  - _pages
 
-# Conversion
-markdown: kramdown
+# Tags
+tag_page_dir:         tag
+tag_page_layout:      tag_page
+tag_permalink_style:  pretty
 
-# Sass
 sass:
   sass_dir: _sass
   style: compressed
