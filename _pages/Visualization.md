@@ -17,4 +17,4 @@ Starting from April 2020, I decide to put aside one hour on Monday weekly to hon
 |16|20200427|[Can you show the adjusted target & missing pipeline?](https://public.tableau.com/profile/yung.tang.chou#!/vizhome/WOW2020Week16-Canyoushowtheadjustedtargetmissingpipeline_15879189153500/Dashboard1)|[Sales Pipeline](https://data.world/missdataviz/sales-pipeline)
 
 
-<iframe seamless frameborder="0" src="https://public.tableau.com/views/WOW2020Week16-Canyoushowtheadjustedtargetmissingpipeline_15879189153500/Dashboard1?:embed=yes&:display_count=yes&:showVizHome=no" width = '650' height = '450' scrolling='yes' ></iframe>
+<iframe seamless frameborder="0" src="https://public.tableau.com/views/WOW2020Week16-Canyoushowtheadjustedtargetmissingpipeline_15879189153500/Dashboard1?:embed=yes&:display_count=yes&:showVizHome=no" width = '800' height = '600' scrolling='yes' ></iframe>
