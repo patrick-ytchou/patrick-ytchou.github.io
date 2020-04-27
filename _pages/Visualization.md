@@ -16,5 +16,7 @@ Starting from April 2020, I decide to put aside one hour on Monday weekly to hon
 |14|20200420|[How does the sales pipeline look?](https://public.tableau.com/profile/yung.tang.chou#!/vizhome/WOW2020Week14Howdoesthesalespipelinelook_15873927519830/Sheet1)|[Sales Funnel](http://www.workout-wednesday.com/2020w14/)
 |16|20200427|[Can you show the adjusted target & missing pipeline?](https://public.tableau.com/profile/yung.tang.chou#!/vizhome/WOW2020Week16-Canyoushowtheadjustedtargetmissingpipeline_15879189153500/Dashboard1)|[Sales Pipeline](https://data.world/missdataviz/sales-pipeline)
 
+<table><thead><tr><th>姓名</th><th>年龄</th><th>住址</th><th>性别</th><th>描述</th></tr></thead><tbody><tr><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td></tr><tr><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td></tr><tr><td>1</td><td>1</td><td></td><td>1</td><td>1</td></tr><tr><td>1</td><td>1</td><td></td><td>1</td><td>1 1</td></tr></tbody></table>
+
 
 <iframe seamless frameborder="0" src="https://public.tableau.com/views/WOW2020Week16-Canyoushowtheadjustedtargetmissingpipeline_15879189153500/Dashboard1?:embed=yes&:display_count=yes&:showVizHome=no" width = '800' height = '600' scrolling='yes' ></iframe>
